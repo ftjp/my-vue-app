@@ -6,7 +6,6 @@ import Layout from '../layout/Layout.vue'
 import Home from '../views/Home.vue'
 import RefPractice from '../views/practice/RefPractice.vue'
 
-import ComponentPractice from '../views/practice/ComponentPractice.vue'
 import PropsEmitPractice from '../views/practice/PropsEmitPractice.vue'
 import SlotPractice from '../views/practice/SlotPractice.vue'
 const routes = [
@@ -34,12 +33,6 @@ const routes = [
         name: 'ref-practice',
         component: RefPractice,
         meta: { title: '响应式 API 综合练习' }
-      },
-      {
-        path: 'component-practice',
-        name: 'ComponentPractice',
-        component: ComponentPractice,
-        meta: { title: '组件练习' }
       },
       {
         path: 'props-emit-practice',
