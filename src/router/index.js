@@ -13,7 +13,7 @@ const routes = [
     path: '/',
     name: 'Login',
     component: Login,
-    meta: { requiresAuth: false }  // 不需要登录
+    meta: { requiresAuth: false }
   },
   {
     path: '/dashboard',
